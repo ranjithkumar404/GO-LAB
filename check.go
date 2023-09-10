@@ -32,6 +32,7 @@ func phil(i int) {
 		state[i] = 2
 		fmt.Println("Phil", i, " has reached the check point")
 		time.Sleep(time.Second)
+		fmt.Println("Phil", i, " has resumed ")
 		if state[i] == 2 {
 			break
 		}
